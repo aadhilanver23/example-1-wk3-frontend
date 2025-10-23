@@ -1,6 +1,6 @@
 document.getElementById('getFact').addEventListener('click', async () => {
     try {
-        const response = await fetch('https://example-1-wk3-backend.vercel.app/random-fact');
+        const response = await fetch('https://example-1-wk3-backend.vercel.app/');
         const data = await response.json();
         
         const factDisplay = document.getElementById('factDisplay');
